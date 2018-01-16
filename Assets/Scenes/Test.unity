@@ -421,6 +421,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114244239242080308, guid: a80ebdb9a63b41849a8e9e667958e676,
+        type: 2}
+      propertyPath: ignoreCollisionsWith.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4662188232738324, guid: a80ebdb9a63b41849a8e9e667958e676, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -788,6 +793,11 @@ Prefab:
       propertyPath: m_ChildAlignment
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 114244239242080308, guid: a80ebdb9a63b41849a8e9e667958e676,
+        type: 2}
+      propertyPath: ignoreCollisionsWith.Array.data[0]
+      value: 
+      objectReference: {fileID: 1303678091}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a80ebdb9a63b41849a8e9e667958e676, type: 2}
   m_IsPrefabParent: 0
@@ -1318,7 +1328,7 @@ GameObject:
   - component: {fileID: 1303678093}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: ExcludeTeleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
